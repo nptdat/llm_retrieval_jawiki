@@ -1,0 +1,10 @@
+max_chunk_len: 1024
+vectorizer_batch_size: 12
+loader_batch_size: 500
+loader_debug_filepath: ../data/indexed_doc_titles.txt
+limit_chunk_count: 10000000
+vectorizer_base_model: sonoisa/sentence-t5-base-ja-mean-tokens
+vectorizer_base_class: SentenceT5
+data_filepath: ../data/jawiki-20230508-cirrussearch-content.json.gz
+vectorizer_device: "cuda:2"
+skip_count: 0

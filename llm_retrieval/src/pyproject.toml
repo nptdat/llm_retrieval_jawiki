@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "qa"
+version = "1.0.0"
+description = "QA system using LLM and retrieval pattern"
+authors = ["Dat Nguyen"]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.11"
+transformers = "^4.29.1"
+numpy = "^1.24.3"
+urllib3 = "1.26.15"
+torch = "2.0.0"
+sentencepiece = "^0.1.99"
+pydantic = "^1.10.7"
+qdrant-client = "^1.1.7"
+fastapi = "^0.95.1"
+uvicorn = "^0.22.0"
+openai = "^0.27.6"
+
+[tool.poetry.scripts]
+indexing = "qa.indexer.main:start"
+start = "qa.answer.api:start"

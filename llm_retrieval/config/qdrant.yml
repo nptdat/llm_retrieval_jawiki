@@ -1,0 +1,9 @@
+url: http://localhost
+http_port: 6333
+grpc_port: 6334
+prefer_grpc: false
+collection_name: llm_retrieval
+api_key: null
+vector_size: 768
+distance: Cosine
+timeout: 10
