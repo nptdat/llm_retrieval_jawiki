@@ -1,4 +1,4 @@
-# chatgpt_retrieval
+# llm_retrieval
 QA system based on jawiki data using [ChatGPT retrieval pattern](https://github.com/openai/chatgpt-retrieval-plugin)
 
 
